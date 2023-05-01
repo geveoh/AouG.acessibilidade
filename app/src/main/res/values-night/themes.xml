@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.AouG" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="colorPrimary">@color/purple</item>
+        <item name="colorSecondary">@color/blue</item>
+        <item name="android:textOn">75%</item>
+        <item name="android:textOff">70%</item>
+    </style>
+</resources>
