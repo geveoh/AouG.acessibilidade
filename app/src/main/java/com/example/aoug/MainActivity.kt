@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
         val resultado = precoAlcool / precoGasolina
         val variavelCalculo = if (switchCalculo.isChecked) 0.75 else 0.7
 
-        if (resultado < variavelCalculo) {
+        if (resultado <= variavelCalculo) {
             textResultado.text = "Abasteça com Álcool"
         } else {
             textResultado.text = "Abasteça com Gasolina"
