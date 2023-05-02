@@ -26,10 +26,7 @@ class MainActivity : AppCompatActivity() {
     fun calcularPreco(view: View?) {
         val precoAlcool = editAlcool.text.toString().toDouble()
         val precoGasolina = editGasolina.text.toString().toDouble()
-
-        /* cálculo ( preçoAlcool / preçoGasolina)
-        Se o resultado >= 0.7, melhor gasolina, se não melhor Álcool
-        */
+        
 
         val resultado = precoAlcool / precoGasolina
         val variavelCalculo = if (switchCalculo.isChecked) 0.75 else 0.7
